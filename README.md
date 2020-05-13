@@ -23,7 +23,7 @@ Then add this repository as a submodule, initialise it, and update it.
 ```bash
 git submodule add https://github.com/astra-uu-se/astra-bib.git
 git submodule init
-git submodule update
+git submodule update --remote
 ```
 
 Add the bibliography to your latex file.
@@ -44,7 +44,7 @@ latex paper; latex paper; bibtex paper; latex paper
 ### Updating
 
 ```bash
-git submodule update
+git submodule update --remote
 ```
 ## Contributing
 

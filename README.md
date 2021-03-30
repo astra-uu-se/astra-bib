@@ -33,6 +33,14 @@ Add the bibliography to your latex file.
 \bibliography{astra-bib/astra}
 ```
 
+Additionally you can change the `.gitsubmodules` file if you are using a branch other than master:
+```git
+[submodule "astra-bib"]
+	path = astra-bib
+	url = https://github.com/astra-uu-se/astra-bib.git
+    branch = your-branch-name-here
+```
+
 ## Compiling the bibliography
 
 In order to compile the bibliography for a paper with name `paper.tex` (**Note:** you can also use the `pdflatex` command instead of the `latex` command).

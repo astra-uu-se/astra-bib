@@ -1,6 +1,6 @@
 # astra-bib
 
-This submodule contains the latest bibliography for [The optimisation group](http://www.it.uu.se/research/group/optimisation/). Use this as a git submodule for your bibliography when writing papers.
+This submodule contains the latest bibliography for [The optimisation group](https://www.uu.se/en/department/information-technology/research/research-groups/optimisation-research-group). Use this as a git submodule for your bibliography when writing papers.
 
 ## Getting Started
 
